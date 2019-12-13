@@ -1,0 +1,5 @@
+INFO    2019-10-03 12:09:37,011 [main] com.ethans.automation.testng.ReporterLogs  - New driver instantiated
+INFO    2019-10-03 12:09:37,066 [main] com.ethans.automation.testng.ReporterLogs  - Implicit wait applied on the driver for 10 seconds
+INFO    2019-10-03 12:10:39,114 [main] com.ethans.automation.testng.ReporterLogs  - Web application launched
+INFO    2019-10-03 16:19:45,906 [main] com.ethans.automation.testng.ReporterLogs  - New driver instantiated
+INFO    2019-10-03 16:19:45,985 [main] com.ethans.automation.testng.ReporterLogs  - Implicit wait applied on the driver for 10 seconds

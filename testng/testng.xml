@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TDD Test Suite" parreral="tests">
+
+
+    <test name="First Test">
+		<classes>
+			<class name="com.ethans.automation.testng.FirstTestNgClass" />
+		</classes>
+	</test>
+	<!-- <test name="Learning Test Suite">
+		<classes>
+			<class name="com.ethans.automation.testng.TestNG" />
+		</classes>
+	</test>-->
+	<test name="Grouping">
+		<groups>
+			<run>
+				<include name="Organization" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.ethans.automation.testng.TestNgGrouping" />
+		</classes>
+	</test>
+	<!-- <test name="Testing Sequence">
+		<classes>
+			<class name="com.ethans.automation.testng.TestNgSequence" />
+		</classes>
+	</test>-->
+
+	<test name="Parameter Test">
+		<parameter name="sUsername" value="testuser_1" />
+		<parameter name="sPassword" value="Test@123" />
+		<classes>
+			<class name="com.ethans.automation.testng.TestngParameters" />
+        </classes>
+	</test>
+</suite>
